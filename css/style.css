@@ -1,0 +1,177 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+}
+html{
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  background-color: #273248;
+}
+/*Reset*/
+ul,li{
+  list-style: none;
+}
+a{
+  text-decoration: none; 
+}
+.d-flex{
+  display: flex;
+}
+/*Style-Colors*/
+.fGSan{
+  font-family: 'GeneralSans-Light';
+}
+.fEro{
+  font-family: 'Erode-Regular';
+}
+.c-w{
+  color: #FFEBD2;
+}
+.c-o{
+  color: #FC7643;
+}
+.c-ol{
+  color: #FFA364;
+}
+.bt{
+  border-bottom: 1px solid #FFEBD2;
+}
+.bt-o{
+  border-bottom: 1px solid #FC7643;
+}
+.bt-ol{
+  border-bottom: 1px solid #FFA364;
+}
+/*Font-size*/
+.little{
+  font-size: 0.7rem;
+}
+.big{
+  font-size: 140px;
+}
+.middle{
+  font-size: 75px;
+}
+/*SPACING*/
+.mtotal{
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+.mb{
+  margin-bottom: 3rem;
+}
+.mt{
+  margin-top: 1rem;
+}
+.mt2{
+  margin-top: 10rem;
+}
+
+/*HEADER*/
+.logo{
+  width: 15%;
+  align-items:baseline;
+}
+nav{
+  width: 100%;
+}
+ul{
+  width: 70%;
+  justify-content: space-evenly;
+  align-items:baseline;
+  margin-top: 1.4rem;
+}
+/*SECTION 1*/
+.titre{
+  height: 90vh;
+}
+.titre1, .titre2{
+  flex-direction: column;
+}
+.titre1{
+  line-height: 120px;
+  margin-top: 15rem;
+  margin-left: 20rem;
+  width: 70%;
+}
+.titre2{
+  margin-top: 20rem;
+  line-height: 70px;
+  margin-left: 80rem; 
+   width: 25%;
+}
+/*A PROPOS*/
+#apropos{
+  height: 100vh;
+  width: 100%;
+  margin-top: 10rem;
+}
+.texte, .pics{
+  margin-top: 20rem;
+}
+
+.texte h3{
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: normal;
+}
+.texte p{
+  font-size: 24px;
+  line-height: 30px;
+}
+.pics{
+  width: 40%;
+}
+/*SKILLS*/
+#skills{
+  height: 90vh;
+}
+.title{
+  font-size: 144px;
+}
+.box{
+  width: 300px;
+  height: 200px;
+  position: relative;
+  width: 100%;
+}
+.box img{
+  width: 100%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.box:hover img {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.box h4{
+  font-size: 24px;
+  position: absolute;
+  top: -10px;
+  left: 0;
+  width: 100%;
+}
+.box p{
+  font-size: 18px;
+  line-height: 25px;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+}
+.bg-project {
+  background: rgb(0, 0, 0);
+  /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+.spacer {
+  padding: 0 5px;
+}
